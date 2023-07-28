@@ -29,7 +29,13 @@ Two clustering algorithms, <code>K-Means</code> and <code>DBSCAN</code>, were ex
 After evaluating the performance of both clustering models, the K-Means model was selected for customer segmentation. The K-Means model was used to create distinct clusters of customers based on their credit card usage behavior. Once the clusters were defined, profiling of each cluster was conducted to gain insights into the characteristics and preferences of customers within each group. This information can be used to tailor marketing strategies and improve customer engagement.
 
 <h2>Results</h2>
+<p>Below are the clusters obtained by each algorithm. Since K-Means had a better performance, it was chosen to do profiling.</p><br>
 
+<b>K-Means</b>
+![K-Means](kmeans_clusters.png)
+
+<b>DBSCAN</b>
+![K-Means](dbscan_clusters.png)
 
 </body>
 </html>
